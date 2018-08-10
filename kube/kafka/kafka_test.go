@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/spec"
 	"github.com/kylelemons/godebug/pretty"
 	appsv1Beta1 "k8s.io/api/apps/v1beta1"
 	"k8s.io/api/core/v1"

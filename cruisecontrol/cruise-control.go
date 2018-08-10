@@ -7,9 +7,9 @@ import (
 
 	"errors"
 
-	"github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/spec"
 
-	cruisecontrol_kube "github.com/krallistic/kafka-operator/kube/cruisecontrol"
+	cruisecontrol_kube "github.com/crazyleeyang/kafka-operator/kube/cruisecontrol"
 
 	log "github.com/Sirupsen/logrus"
 )

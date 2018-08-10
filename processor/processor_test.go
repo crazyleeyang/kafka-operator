@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/krallistic/kafka-operator/controller"
-	"github.com/krallistic/kafka-operator/kafka"
-	spec "github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/controller"
+	"github.com/crazyleeyang/kafka-operator/kafka"
+	spec "github.com/crazyleeyang/kafka-operator/spec"
 )
 
 func TestProcessor_DetectChangeType(t *testing.T) {

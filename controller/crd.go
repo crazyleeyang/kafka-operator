@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/krallistic/kafka-operator/spec"
-	"github.com/krallistic/kafka-operator/util"
+	"github.com/crazyleeyang/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/util"
 
 	log "github.com/Sirupsen/logrus"
 

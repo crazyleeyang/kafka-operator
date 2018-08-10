@@ -8,7 +8,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/azer/snakecase"
-	"github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/spec"
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/api/core/v1"
 )

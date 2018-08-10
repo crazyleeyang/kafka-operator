@@ -6,14 +6,14 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	"github.com/krallistic/kafka-operator/controller"
-	"github.com/krallistic/kafka-operator/kafka"
-	"github.com/krallistic/kafka-operator/kube"
-	spec "github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/controller"
+	"github.com/crazyleeyang/kafka-operator/kafka"
+	"github.com/crazyleeyang/kafka-operator/kube"
+	spec "github.com/crazyleeyang/kafka-operator/spec"
 
-	cruisecontrol_kube "github.com/krallistic/kafka-operator/kube/cruisecontrol"
-	exporter_kube "github.com/krallistic/kafka-operator/kube/exporter"
-	kafka_kube "github.com/krallistic/kafka-operator/kube/kafka"
+	cruisecontrol_kube "github.com/crazyleeyang/kafka-operator/kube/cruisecontrol"
+	exporter_kube "github.com/crazyleeyang/kafka-operator/kube/exporter"
+	kafka_kube "github.com/crazyleeyang/kafka-operator/kube/kafka"
 )
 
 type Processor struct {

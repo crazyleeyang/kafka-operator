@@ -9,7 +9,7 @@ import (
 	"k8s.io/api/core/v1"
 	appsv1Beta1 "k8s.io/api/apps/v1beta1"
 
-	"github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/spec"
 )
 
 func TestGenerateExporterService(t *testing.T) {

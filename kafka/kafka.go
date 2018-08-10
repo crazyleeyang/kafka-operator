@@ -5,8 +5,8 @@ import (
 
 	"github.com/Shopify/sarama"
 	log "github.com/Sirupsen/logrus"
-	"github.com/krallistic/kafka-operator/spec"
-	"github.com/krallistic/kafka-operator/util"
+	"github.com/crazyleeyang/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/util"
 	kazoo "github.com/krallistic/kazoo-go"
 )
 

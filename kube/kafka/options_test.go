@@ -8,7 +8,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/api/core/v1"
 
-	"github.com/krallistic/kafka-operator/spec"
+	"github.com/crazyleeyang/kafka-operator/spec"
 )
 
 func TestGenerateKafkaOptions(t *testing.T) {

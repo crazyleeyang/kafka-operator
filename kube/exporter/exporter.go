@@ -3,9 +3,9 @@ package exporter
 import (
 	"strings"
 
-	"github.com/krallistic/kafka-operator/kube"
-	"github.com/krallistic/kafka-operator/spec"
-	util "github.com/krallistic/kafka-operator/util"
+	"github.com/crazyleeyang/kafka-operator/kube"
+	"github.com/crazyleeyang/kafka-operator/spec"
+	util "github.com/crazyleeyang/kafka-operator/util"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/api/core/v1"
